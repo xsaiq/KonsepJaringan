@@ -1,5 +1,6 @@
 # KONSEP JARINGAN
 
+
 ## OSI Layer
 OSI (Open Systems Interconnection) adalah model yang menggambarkan cara jaringan komputer berkomunikasi. Model ini terdiri dari tujuh lapisan yang mewakili fungsi-fungsi yang berbeda dalam komunikasi jaringan. Setiap lapisan memiliki tugas khusus, dan data melewati setiap lapisan saat berkomunikasi melalui jaringan. Tujuannya adalah memungkinkan perangkat keras dan perangkat lunak dari berbagai vendor untuk berinteraksi secara efektif dalam komunikasi jaringan.
 
