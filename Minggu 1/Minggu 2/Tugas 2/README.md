@@ -1,3 +1,0 @@
-# KONSEP JARINGAN
-
----
