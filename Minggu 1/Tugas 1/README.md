@@ -9,6 +9,7 @@ Gambar di atas merupakan 7 lapisan OSI. Berikut adalah penjelasan dari ketujuh l
 
 ### 1. Lapisan Fisik (Physical Layer)
 Lapisan ini bertanggung jawab untuk mentransmisikan bit-bit mentah melalui media fisik seperti kabel, serat optik, atau gelombang radio. Fungsi-fungsi di lapisan ini termasuk sinyal, bit rate, topologi jaringan, serta pengiriman dan penerimaan bit-bit tanpa memperhatikan makna atau struktur bit tersebut.
+
 ### 2. Lapisan Data Link (Data Link Layer)
 Lapisan ini mengelola bagaimana bit-bit diubah menjadi rangkaian data yang lebih besar yang disebut frame. Lapisan ini juga mengatur akses ke media bersama dan mengatasi masalah kesalahan pada lapisan fisik. Lapisan ini dibagi menjadi dua sublapisan: lapisan kontrol akses media (Media Access Control/MAC) dan lapisan kontrol kesalahan (Logical Link Control/LLC).
 
