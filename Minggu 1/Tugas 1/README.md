@@ -3,7 +3,7 @@
 ## OSI Layer
 OSI (Open Systems Interconnection) adalah model yang menggambarkan cara jaringan komputer berkomunikasi. Model ini terdiri dari tujuh lapisan yang mewakili fungsi-fungsi yang berbeda dalam komunikasi jaringan. Setiap lapisan memiliki tugas khusus, dan data melewati setiap lapisan saat berkomunikasi melalui jaringan. Tujuannya adalah memungkinkan perangkat keras dan perangkat lunak dari berbagai vendor untuk berinteraksi secara efektif dalam komunikasi jaringan.
 
-![osi_layer](assets/osi_layer.jpg)
+![osi-layer](assets/osi-layer.jpg)
 
 Gambar di atas merupakan 7 lapisan OSI. Berikut adalah penjelasan dari ketujuh lapisan:
 
