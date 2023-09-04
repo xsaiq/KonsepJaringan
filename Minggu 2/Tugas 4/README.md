@@ -9,4 +9,26 @@ JPEG File Interchange Format atau bisa disingkat JFIF adalah pemantauan dan anal
 
 Show Packet Bytes adalah untuk menampilkan representasi heksadesimal dari isi detail setiap byte dalam paket jaringan yang ditangkap. Ini membantu dalam analisis mendalam, pemecahan masalah, dan verifikasi protokol dalam komunikasi jaringan.
 
+Ditemukan 5 file berekstensi JPEG pada http jpeg cap
+
+---
+1. Line 61
+![61](assets/61.jpg)
+<br>
+
+2. Line 72
+![72](assets/72.jpg)
+<br>
+
+3. Line 259
+![259](assets/259.jpg)
+<br>
+
+4. Line 269
+![269](assets/269.jpg)
+<br>
+
+5. Line 479
+![479](assets/479.jpg)
+
 ---
