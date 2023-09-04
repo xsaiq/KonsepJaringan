@@ -7,7 +7,6 @@ OSI (Open Systems Interconnection) adalah model yang menggambarkan cara jaringan
 
 Gambar di atas merupakan 7 lapisan OSI. Berikut adalah penjelasan dari ketujuh lapisan:
 
----
 ### 1. Lapisan Fisik (Physical Layer)
 Lapisan ini bertanggung jawab untuk mentransmisikan bit-bit mentah melalui media fisik seperti kabel, serat optik, atau gelombang radio. Fungsi-fungsi di lapisan ini termasuk sinyal, bit rate, topologi jaringan, serta pengiriman dan penerimaan bit-bit tanpa memperhatikan makna atau struktur bit tersebut.
 
