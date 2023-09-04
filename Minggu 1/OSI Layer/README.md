@@ -34,3 +34,5 @@ Lapisan ini bertanggung jawab atas penyediaan format data yang dapat dimengerti 
 ---
 ### 7. Lapisan Aplikasi (Application Layer)
 Lapisan ini adalah lapisan tertinggi dalam model OSI. Ini berhubungan langsung dengan aplikasi pengguna dan menyediakan layanan komunikasi langsung kepada pengguna, seperti pengiriman email, transfer file, dan browsing web.
+
+---
