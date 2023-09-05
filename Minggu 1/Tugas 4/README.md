@@ -1,12 +1,17 @@
 # KONSEP JARINGAN
 
 ## FTP (File Transfer Protocol)
-FTP (File Transfer Protocol) adalah protokol yang digunakan untuk mentransfer file antara komputer melalui jaringan. FTP secara umum menggunakan dua port yang berbeda untuk mengirim data: port 20 dan port 21. Port 21 digunakan untuk menginisiasi sesi kontrol, sementara port 20 (atau port dinamis yang dipilih oleh server) digunakan untuk mengirimkan data yang sebenarnya.
 
-Namun, penting untuk diingat bahwa port 20 dan 21 adalah port TCP (Transmission Control Protocol), bukan UDP (User Datagram Protocol). FTP secara tradisional menggunakan TCP karena protokol ini menjamin pengiriman yang andal dan terurut dari paket-paket data. Dengan demikian, setiap paket yang dikirimkan akan dikonfirmasi oleh penerima, dan jika terjadi kehilangan atau pengulangan paket, protokol akan mengatasi masalah tersebut.
+    Kenapa 1 Port FTP Bisa Pakai UDP / TCP?
 
-Protokol UDP, di sisi lain, adalah protokol tanpa koneksi yang tidak menjamin pengiriman yang andal atau terurut. Karena FTP melibatkan transfer file yang memerlukan integritas data yang tinggi, penggunaan TCP lebih sesuai. Dengan TCP, file yang dikirimkan melalui FTP dapat dipastikan tiba dengan benar dan tidak rusak.
+Port FTP (File Transfer Protocol) sebenarnya menggunakan protokol TCP (Transmission Control Protocol) untuk komunikasi. UDP (User Datagram Protocol) adalah protokol yang berbeda yang memiliki karakteristik yang berbeda. Sebagian besar aplikasi FTP menggunakan TCP karena TCP menawarkan koneksi yang handal dan terjamin, yang sangat penting untuk mentransfer file dengan keamanan dan keakuratan yang tinggi.
 
-Meskipun begitu, ada beberapa variasi atau mode FTP yang menggunakan protokol lain, seperti FTPS (FTP Secure) yang dapat menggunakan TLS/SSL untuk enkripsi, serta SFTP (Secure File Transfer Protocol) yang sebenarnya berjalan di atas protokol SSH (Secure Shell). Beberapa protokol pengganti ini mungkin dapat menggunakan port UDP dalam beberapa kasus, tetapi implementasinya dapat berbeda-beda dan mungkin tidak umum digunakan seperti FTP dengan TCP.
+FTP menggunakan dua koneksi, yang dikenal sebagai koneksi kontrol (control connection) dan koneksi data (data connection). Koneksi kontrol digunakan untuk mengirim perintah dan menerima tanggapan dari server FTP, sementara koneksi data digunakan untuk mengirim data (misalnya, file yang diunduh atau diunggah).
+
+Protokol FTP dirancang khusus untuk menggunakan TCP sebagai protokol transportasinya. TCP memastikan bahwa data yang dikirimkan antara klien dan server FTP sampai dengan baik, dan jika ada masalah dalam pengiriman, TCP akan mencoba untuk mengirim ulang data tersebut untuk memastikan keakuratan dan keamanan transfer file.
+
+UDP, di sisi lain, adalah protokol yang tidak terjamin, yang berarti data yang dikirimkan menggunakan UDP tidak dijamin akan sampai dengan baik atau dalam urutan yang benar. Karena alasan ini, UDP tidak cocok untuk protokol FTP, yang bergantung pada kehandalan dan keamanan transfer file.
+
+Jadi, meskipun secara teoritis mungkin memungkinkan untuk mencoba menggunakan UDP dengan port yang sama dengan FTP, ini akan menghasilkan transfer file yang tidak handal dan tidak aman, dan ini tidak sesuai dengan desain protokol FTP yang menggunakan TCP untuk kehandalan dan keamanan.
 
 ---
