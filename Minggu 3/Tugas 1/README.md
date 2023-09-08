@@ -10,13 +10,12 @@ HTTP (Hypertext Transfer Protocol) adalah protokol yang digunakan untuk mentrans
 | HTTP 1.0   | HTTP 1.0 memperkenalkan fitur-fitur seperti header permintaan HTTP, berbagai metode HTTP (GET, POST, dll.), serta dukungan untuk koneksi persisten (Keep-Alive). Header "Host" diperkenalkan, memungkinkan server untuk mendukung beberapa domain pada satu alamat IP. | Contoh Permintaan HTTP 1.0: `GET /index.html HTTP/1.0 Host: www.contoh.com` | Dukungan untuk header HTTP dan berbagai metode. Kemampuan koneksi persisten. | Dapat mengirimkan permintaan HTTP yang lebih kompleks. Mendukung beberapa domain pada satu server. |
 | HTTP 1.1   | HTTP 1.1 menghadirkan peningkatan signifikan dalam performa dan efisiensi. Memperkenalkan koneksi persisten secara default, sehingga mengurangi overhead pembukaan/ketutupan koneksi. Pipelining HTTP memungkinkan pengiriman beberapa permintaan tanpa harus menunggu respons sebelumnya. | Contoh Permintaan HTTP 1.1: `GET /index.html HTTP/1.1 Host: www.contoh.com` | Koneksi persisten secara default. HTTP Pipelining. | Kinerja yang lebih baik melalui pengurangan latensi. Pengiriman yang lebih efisien dengan pipelining. |
 | HTTP/2.0   | HTTP/2.0 adalah versi terbaru yang menghadirkan transformasi besar. Menggunakan multiplexing untuk mengirim banyak permintaan/respons melalui satu koneksi. Memiliki kompresi header untuk mengurangi beban bandwidth. Prioritisasi permintaan untuk mengoptimalkan pengiriman. | Contoh Permintaan HTTP/2.0: `GET /index.html Host: www.contoh.com` | Multiplexing. Kompresi header. Prioritisasi. | Pengiriman yang lebih cepat melalui multiplexing. Penghematan bandwidth dengan kompresi header. Pengoptimalan pengiriman dengan prioritisasi. |
-
+***
 <br/>
 
 <div align="center">
-  ![connections](assets/connections.jpg)
   <img src="assets/connections.jpg">
-  <p><strong>Gambar:</strong> Perbedaan TCP Session Versi HTTP.</p>
+  <p><strong>Gambar:</strong> Perbedaan TCP Session Versi HTTP</p>
 </div>
 
 TCP Keep-Alive adalah fitur yang ditemukan dalam protokol transport TCP yang digunakan oleh HTTP. Fitur ini memiliki keunggulan besar dibandingkan dengan versi HTTP sebelumnya yang tidak menggunakan koneksi persisten (Keep-Alive). Berikut penjelasan singkatnya:
