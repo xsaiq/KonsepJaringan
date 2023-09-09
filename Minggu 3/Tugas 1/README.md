@@ -11,6 +11,7 @@ HTTP (Hypertext Transfer Protocol) adalah protokol yang digunakan untuk mentrans
 | HTTP 1.1   | HTTP 1.1 menghadirkan peningkatan signifikan dalam performa dan efisiensi. Memperkenalkan koneksi persisten secara default, sehingga mengurangi overhead pembukaan/ketutupan koneksi. Pipelining HTTP memungkinkan pengiriman beberapa permintaan tanpa harus menunggu respons sebelumnya. | Contoh Permintaan HTTP 1.1: `GET /index.html HTTP/1.1 Host: www.contoh.com` | Koneksi persisten secara default. HTTP Pipelining. | Kinerja yang lebih baik melalui pengurangan latensi. Pengiriman yang lebih efisien dengan pipelining. |
 | HTTP/2.0   | HTTP/2.0 adalah versi terbaru yang menghadirkan transformasi besar. Menggunakan multiplexing untuk mengirim banyak permintaan/respons melalui satu koneksi. Memiliki kompresi header untuk mengurangi beban bandwidth. Prioritisasi permintaan untuk mengoptimalkan pengiriman. | Contoh Permintaan HTTP/2.0: `GET /index.html Host: www.contoh.com` | Multiplexing. Kompresi header. Prioritisasi. | Pengiriman yang lebih cepat melalui multiplexing. Penghematan bandwidth dengan kompresi header. Pengoptimalan pengiriman dengan prioritisasi. |
 ***
+
 <br/>
 
 <div align="center">
@@ -37,3 +38,4 @@ TCP Keep-Alive adalah fitur yang ditemukan dalam protokol transport TCP yang dig
 - Ketika Anda membuka situs web yang menggunakan TCP Keep-Alive, setelah mengunduh sumber daya awal (seperti HTML), permintaan tambahan seperti gambar, CSS, atau skrip JavaScript dapat dimuat melalui koneksi yang sama tanpa harus membuka koneksi baru untuk setiap elemen. Ini menghasilkan peningkatan signifikan dalam waktu pemuatan halaman.
 
 Dengan demikian, TCP Keep-Alive adalah salah satu fitur yang meningkatkan efisiensi dan kinerja komunikasi web, menghadirkan pengalaman pengguna yang lebih responsif dan cepat.
+***
