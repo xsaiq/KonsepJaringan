@@ -24,8 +24,8 @@ Socket adalah abstraksi perangkat lunak yang digunakan dalam pemrograman jaringa
 
 1. Pertama buka terminal yang ada pada Linux
 2. Siapkan file client dan Server
-   - [client.c](link_ke_client.c)
-   - [server.c](link_ke_server.c)
+   - [client.c](client.c)
+   - [server.c](server.c)
 4. Masuk ke halaman yang ada server.c
 5. Ketik ``gcc -o server server.c`` untuk mengompilasi Server dalam bahasa C
 6. Ketik ``./server`` untuk menjalankan program yang telah dikompilasi
@@ -34,8 +34,10 @@ Socket adalah abstraksi perangkat lunak yang digunakan dalam pemrograman jaringa
 5. Ketik ``./client`` untuk menjalankan program yang telah dikompilasi
 6. Ketikkan sesuatu di client misalnya LOGIN, maka akan muncul pesan LOGIN pada server
 <br>
-<div align=center> <img src="assets/client.PNG"> <p><strong>Gambar:</strong> Terminal pada Client</p> </div>
-<br>
-<div align=center> <img src="assets/server.PNG"> <p><strong>Gambar:</strong> Terminal pada Server</p> </div>
 
+**Gambar:** Terminal pada Client
+![client](assets/client.PNG)
+
+**Gambar:** Terminal pada Server
+![server](assets/server.PNG)
 ***
