@@ -19,9 +19,20 @@ Socket adalah abstraksi perangkat lunak yang digunakan dalam pemrograman jaringa
 - Tugas utama socket server adalah untuk merespons permintaan dari client, seperti mengirim data atau menjalankan tugas tertentu berdasarkan permintaan tersebut.
 
 ### 3. Proses Socket
+
+<div align=center> <img src="assets/socket.PNG"> </div>
+
 1. Pertama buka terminal yang ada pada Linux
 2. Siapkan client.c dan server.c
-<div align=center> <img src="assets/socket.png"> </div>
-3. 
-4. c
+3. Masuk ke halaman yang ada server.c
+4. Ketik ``gcc -o server server.c`` untuk mengompilasi server dalam bahasa C
+5. Ketik ``./server`` untuk menjalankan program yang telah dikompilasi
+6. Buka terminal baru dan masuk ke halaman yang ada client.c
+4. Ketik ``gcc -o client client.c`` untuk mengompilasi client dalam bahasa C
+5. Ketik ``./client`` untuk menjalankan program yang telah dikompilasi
+6. Ketikkan sesuatu di client misalnya LOGIN, maka akan muncul pesan LOGIN pada server
+<br>
+<div align=center> <img src="assets/client.PNG"> <p>Gambar terminal pada client</p> </div>
+<div align=center> <img src="assets/server.PNG"> <p>Gambar terminal pada server</p> </div>
+
 ***
