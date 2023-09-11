@@ -20,19 +20,22 @@ Socket adalah abstraksi perangkat lunak yang digunakan dalam pemrograman jaringa
 
 ### 3. Proses Socket
 
-<div align=center> <img src="assets/socket.PNG"> </div>
+![socket](assets/socket.PNG)
 
 1. Pertama buka terminal yang ada pada Linux
-2. Siapkan client.c dan server.c
-3. Masuk ke halaman yang ada server.c
-4. Ketik ``gcc -o server server.c`` untuk mengompilasi server dalam bahasa C
-5. Ketik ``./server`` untuk menjalankan program yang telah dikompilasi
-6. Buka terminal baru dan masuk ke halaman yang ada client.c
-4. Ketik ``gcc -o client client.c`` untuk mengompilasi client dalam bahasa C
+2. Siapkan file client dan Server
+   - [client.c](link_ke_client.c)
+   - [server.c](link_ke_server.c)
+4. Masuk ke halaman yang ada server.c
+5. Ketik ``gcc -o server server.c`` untuk mengompilasi Server dalam bahasa C
+6. Ketik ``./server`` untuk menjalankan program yang telah dikompilasi
+7. Buka terminal baru dan masuk ke halaman yang ada client.c
+4. Ketik ``gcc -o client client.c`` untuk mengompilasi Client dalam bahasa C
 5. Ketik ``./client`` untuk menjalankan program yang telah dikompilasi
 6. Ketikkan sesuatu di client misalnya LOGIN, maka akan muncul pesan LOGIN pada server
 <br>
-<div align=center> <img src="assets/client.PNG"> <p>Gambar terminal pada client</p> </div>
-<div align=center> <img src="assets/server.PNG"> <p>Gambar terminal pada server</p> </div>
+<div align=center> <img src="assets/client.PNG"> <p><strong>Gambar:</strong> Terminal pada Client</p> </div>
+<br>
+<div align=center> <img src="assets/server.PNG"> <p><strong>Gambar:</strong> Terminal pada Server</p> </div>
 
 ***
