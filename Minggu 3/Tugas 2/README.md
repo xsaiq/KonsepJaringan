@@ -9,17 +9,17 @@ Socket adalah abstraksi perangkat lunak yang digunakan dalam pemrograman jaringa
 - **Nomor Port**: Nomor port adalah angka yang digunakan untuk mengidentifikasi layanan atau aplikasi tertentu yang berjalan di komputer tersebut. Port membantu sistem operasi mengarahkan data ke aplikasi yang benar. Contohnya, port 80 biasanya digunakan untuk layanan web (HTTP).
 
 ### 2. Jenis Socket
-Terdapat dua jenis socket utama dalam pemrograman jaringan:
-#### a. Socket TCP (Transmission Control Protocol)
-TCP socket menyediakan koneksi yang andal dan berorientasi koneksi.
-Data yang dikirim melalui socket TCP dijamin akan sampai di tujuan dalam urutan yang benar dan tanpa kesalahan.
-Koneksi TCP memungkinkan komunikasi dua arah yang stabil antara pengirim dan penerima.
-Contoh penggunaan: aplikasi web (HTTP), email (SMTP, POP3), transfer file (FTP).
-#### b. Socket UDP (User Datagram Protocol)
-UDP socket menyediakan komunikasi tanpa koneksi dan tidak dijamin andal.
-Data yang dikirim melalui socket UDP mungkin tiba dalam urutan yang berbeda atau bahkan hilang.
-Koneksi UDP lebih cepat daripada TCP karena kurangnya overhead koneksi.
-Contoh penggunaan: streaming video, aplikasi real-time seperti game online.
+#### a. Socket Client:
+- Socket client adalah komponen perangkat lunak yang berfungsi sebagai inisiasi dalam komunikasi jaringan.
+- Socket client dapat menghubungkan ke satu atau lebih socket server, bergantung pada kebutuhan aplikasi.
+- Tugas utama socket client adalah untuk meminta layanan atau data dari socket server.
+#### b. Socket Server:
+- Socket server adalah komponen perangkat lunak yang berfungsi untuk menerima permintaan dari socket client dan memberikan respons sesuai dengan permintaan tersebut.
+- Socket server berjalan secara terus-menerus, mendengarkan permintaan yang masuk dari berbagai socket client yang ingin berkomunikasi.
+- Tugas utama socket server adalah untuk merespons permintaan dari client, seperti mengirim data atau menjalankan tugas tertentu berdasarkan permintaan tersebut.
 
-### 3.
+### 3. Proses Socket
+1. a
+2. b
+3. c
 ***
