@@ -23,7 +23,7 @@ Socket adalah abstraksi perangkat lunak yang digunakan dalam pemrograman jaringa
 ![socket](assets/socket.PNG)
 
 1. Pertama buka terminal yang ada pada Linux
-2. Siapkan file client dan Server
+2. Siapkan file Client dan Server
    - [client.c](client.c)
    - [server.c](server.c)
 4. Masuk ke halaman yang ada server.c
