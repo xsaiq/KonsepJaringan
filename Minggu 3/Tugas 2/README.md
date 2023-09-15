@@ -44,13 +44,13 @@ Socket adalah abstraksi perangkat lunak yang digunakan dalam pemrograman jaringa
 
 ### Socket Connection Termination
 
-1. Full Closed (Tertutup Sepenuhnya):
+#### 1. Full Closed (Tertutup Sepenuhnya):
 
 - Pada mode full closed, kedua ujung koneksi (client dan server) sepakat untuk menutup koneksi sepenuhnya.
 - Setelah kedua ujung sepakat untuk menutup koneksi, tidak ada lagi pertukaran data yang diizinkan di antara keduanya.
 - Koneksi dianggap telah sepenuhnya ditutup, dan sumber daya yang terkait dengan koneksi dapat dibebaskan.
 
-2. Half Closed (Tertutup Separuh):
+#### 2. Half Closed (Tertutup Separuh):
 
 - Pada mode half closed, salah satu ujung (client atau server) menutup koneksi untuk mengirim data, tetapi yang lainnya tetap menerima data.
 - Ini berarti satu ujung telah selesai mengirim data dan ingin menghentikan pengiriman data tambahan, tetapi masih ingin menerima data dari ujung lainnya.
