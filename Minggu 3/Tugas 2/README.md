@@ -42,7 +42,7 @@ Socket adalah abstraksi perangkat lunak yang digunakan dalam pemrograman jaringa
 ![server](assets/server.PNG)
 ***
 
-#### Socket Connection Termination
+### Socket Connection Termination
 
 1. Full Closed (Tertutup Sepenuhnya):
 
