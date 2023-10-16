@@ -12,8 +12,6 @@ Connection termination terbagi menjadi 2, yakni full closed dan half closed.
 1. **Full Closed**, connection yang telah ditutup sepenuhnya. yang mana kedua host tidak lagi dapat berkomunikasi satu sama lain. Connection full closed biasanya terjadi ketika salah satu host atau perangkat jaringan mengirimkan pesan close. Pesan close ini akan diterima oleh host atau perangkat jaringan lain, dan kemudian connection akan ditutup.
 2. **Half Closed**, connection yang hanya ditutup dari satu sisi. Hal ini berarti bahwa satu host atau perangkat jaringan dapat berkomunikasi dengan host atau perangkat jaringan lain, tetapi host atau perangkat jaringan lain tidak dapat berkomunikasi dengan host atau perangkat jaringan pertama. Connection half closed biasanya terjadi ketika salah satu host atau perangkat jaringan mengirimkan pesan close, tetapi host atau perangkat jaringan lain belum siap untuk menutup connection.
 
-***
-
 ### Perbedaan
 <table>
 <tr>
@@ -51,3 +49,5 @@ Listing program pada tugas sebelumnya menggunakan fungsi seperti berikut
 close(server_fd);
 ```
 Maka dapat disimpulkan program tersebut menggunakan connection termination Full Closed.
+
+***
