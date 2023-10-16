@@ -1,7 +1,5 @@
 # KONSEP JARINGAN
-
 ## Connection Termination
-
 ### Pengertian
 Connection termination adalah proses penghentian koneksi antara dua perangkat jaringan. Proses ini dapat diinisiasi oleh salah satu perangkat atau oleh keduanya. 
 
@@ -41,13 +39,10 @@ Connection termination terbagi menjadi 2, yakni full closed dan half closed.
 </tr>
 </table>
 
-***
-
 ### Connection Termination Yang Digunakan Pada Tugas Sebelumnya
 Listing program pada tugas sebelumnya menggunakan fungsi seperti berikut
 ```
 close(server_fd);
 ```
 Maka dapat disimpulkan program tersebut menggunakan connection termination Full Closed.
-
 ***
