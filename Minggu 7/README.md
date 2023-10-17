@@ -11,9 +11,9 @@ Router adalah komponen kunci yang menghubungkan berbagai subnet di jaringan, sem
 Untuk membuat jaringan ini berfungsi, Anda perlu mengkonfigurasi router dan switch dengan benar. Berikut adalah beberapa langkah rinci:
 
 **Gambar**: Fast Ethernet 0 Router 0
-...
+![fe0router0](assets/fe0router0.jpeg)
 **Gambar**: Fast Ethernet 0 Router 1
-...
+![fe0router1](assets/fe0router1.jpeg)
 
 #### Router 0 (R0):
 - Interface FastEthernet 0/0 terhubung ke Switch 0. Anda perlu mengatur alamat IP pada antarmuka ini sebagai gateway untuk subnet 192.168.1.0/24. Misalnya: ip address 192.168.1.1 255.255.255.0.
@@ -21,9 +21,9 @@ Untuk membuat jaringan ini berfungsi, Anda perlu mengkonfigurasi router dan swit
 - Aktifkan routing di Router 0 dengan perintah ip routing.
 
 **Gambar**: Fast Ethernet 1 Router 0
-...
+![fe1router0](assets/fe1router0.jpeg)
 **Gambar**: Fast Ethernet 1 Router 1
-...
+![fe1router1](assets/fe1router1.jpeg)
 
 #### Router 1 (R1):
 - Interface FastEthernet 0/0 terhubung ke Switch 1. Anda perlu mengatur alamat IP pada antarmuka ini sebagai gateway untuk subnet 192.168.2.0/24. Misalnya: `ip address 192.168.2.1 255.255.255.0`.
@@ -37,13 +37,13 @@ Untuk membuat jaringan ini berfungsi, Anda perlu mengkonfigurasi router dan swit
 - Tidak perlu konfigurasi khusus pada switch ini juga.
 
 **Gambar**: IP Config pc 0
-...
+![ipconfigpc0](assets/ipconfigpc0.jpeg)
 **Gambar**: IP Config pc 1
-...
+![ipconfigpc1](assets/ipconfigpc1.jpeg)
 **Gambar**: IP Config pc 2
-...
+![ipconfigpc2](assets/ipconfigpc2.jpeg)
 **Gambar**: IP Config pc 3
-...
+![ipconfigpc3](assets/ipconfigpc3.jpeg)
 
 #### PC-0, PC-2, PC-1, PC-3:
 - Setiap PC harus memiliki gateway yang sesuai. PC-0 dan PC-2 harus memiliki gateway 192.168.1.1, sedangkan PC-1 dan PC-3 harus memiliki gateway 192.168.2.1.
@@ -53,6 +53,7 @@ Dengan konfigurasi ini, PC-0 dan PC-2 akan dapat berkomunikasi satu sama lain me
 Namun terdapat error seperti Unreachable IP yang tidak memungkinkan untuk PC-0 dan PC-1 terhubung. Untuk memperbaiki hal tersebut adalah dengan cara mengisi RIP yang ada di dalam router.
 
 **Gambar**: RIP Router 0
-...
+![riprouter0](assets/riprouter0.jpeg)
 **Gambar**: RIP Router 1
-...
+![riprouter1](assets/riprouter1.jpeg)
+***
