@@ -32,7 +32,7 @@ Hasil ini menunjukkan bahwa koneksi ke www.detik.com responsif, tetapi waktu res
 ### 2.2 Tracert www.detik.com
 
 **Gambar:** Tracert www.detik.com
-![ping](assets/tracer.jpg)
+![tracert](assets/tracert.jpg)
 
 Dalam analisis tracert ini, paket data telah melewati 6 hop sebelum mencapai tujuan di server www.detik.com. Di bawah adalah analisis singkat setiap hop:
 
