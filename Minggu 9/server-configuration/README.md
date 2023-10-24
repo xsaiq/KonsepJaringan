@@ -3,7 +3,7 @@
 ### KONFIGURASI 1 ROUTER, 2 SWITCH & 4 PC
 
 **Gambar:** Topologi Jaringan
-![topologi-jaringan](assets/topologi-jaringan.JPG)
+![topologi-jaringan](assets/topologi-jaringan.png)
 
 Pada percobaan konfigurasi jaringan dengan Packet Tracer yang pertama, digunakna 1 router, 2 switch dan 4 PC.
 Berikut adalah konfigurasi dari peragkat yang digunakna :
