@@ -63,7 +63,7 @@ Prosesnya sama saja dengan yang ketiga, hanya saja pada ping ke 2 ke address yan
 Selanjutnya akan dilakukan percobaan dengan mengganti Switch dengan PT-Hub.
 
 **Gambar:** Ping 5
-![ping5](assets/ping5.JPG)
+![ping5](assets/ping1-pthub.JPG)
 
 Dari simulasi di atas, yang membedakan antara penggunaan Switch dengan PT-Hub adalah hub akan melakukan broadcast ke semua perangkat yang terhubung setiap kali data dikirim, bahkan jika hanya satu perangkat yang merupakan tujuan data. Sehingganmenyebabkan lalu lintas yang tidak efisien.
 ***
