@@ -1,11 +1,7 @@
 # OFFICE FACILITY
 
-## A. OFFICE FACILITY DENGAN PUBLIC IP : 12.0.0.0/8 & 6 SUBNET 
+### OFFICE FACILITY DENGAN PUBLIC IP : 12.0.0.0/8 & 6 SUBNET 
 
-<div align="center">
-<img src="./assets/office-facility.png">
-<p><strong>Gambar :</strong> konfigurasi jaringan</p>
-</div>
 **Gambar:** Konfigurasi Jaringan
 ![office-facility](assets/office-facility.png)
 
