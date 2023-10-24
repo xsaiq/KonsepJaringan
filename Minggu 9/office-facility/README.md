@@ -17,7 +17,6 @@ Berikut adalah konfigurasi dari peragkat yang digunakan :
    - FastEthernet(Fa) 0/0 : 12.192.0.1
 
 2. Lakukan konfigurasi pada keempat PC dengan IP Address sebagai berikut :
-
    - PC0 => 12.33.0.2
    - PC1 => 12.65.0.2
    - PC2 => 12.97.0.2
