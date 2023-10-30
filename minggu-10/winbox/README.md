@@ -1,70 +1,53 @@
-# 💡 WINBOX TEST
+# WINBOX
 
-### Sekilas Info: Mikrotik Winbox
+***
 
+## A. Mikrotik Winbox
 Winbox adalah sebuah aplikasi manajemen berbasis GUI (Graphical User Interface) yang dikembangkan oleh MikroTik. Aplikasi ini digunakan untuk mengkonfigurasi, mengelola, dan memantau perangkat MikroTik RouterOS. Winbox dirancang untuk membuat administrasi perangkat MikroTik menjadi lebih mudah, terutama bagi pengguna yang tidak memiliki pengetahuan mendalam tentang perintah-perintah baris perintah (CLI).
 
-### Konfigurasi Mikrotik via Winbox
+***
 
-#### 1. Melihat Bridge List
-
+## B. Konfigurasi Mikrotik
+### 1. Bridge List
 <div align="center">
-<img src="./assets/bridgeList.png">
+<img src="assets/bridge1.png">
 <p><strong>Gambar : </strong>Bridge List</p>
 </div>
 
-#### 2. Melihat Bridge Port List
-
+### 2. Bridge Port List
 <div align="center">
-<img src="./assets/bridgePortList.png">
+<img src="./assets/ether2.png">
 <p><strong>Gambar : </strong>Bridge Port List</p>
 </div>
 
-#### 3. Route List
-
+### 3. Route List
 <div align="center">
-<img src="./assets/RouteList.png">
+<img src="./assets/AddRoute3.png">
 <p><strong>Gambar : </strong>Route List</p>
 </div>
 
-#### 4. Setting Bridge 1 Properties
-
+### 4. IP Address
 <div align="center">
-<img src="./assets/bridge1Properties.png">
-<p><strong>Gambar : </strong>Setting Bridge 1</p>
+<img src="./assets/addAddress3.png">
+<p><strong>Gambar : </strong>IP Address</p>
 </div>
 
-#### 5. Setting Bridge Port Properties
-
+### 5. Properti Address 1
 <div align="center">
-<img src="./assets/bridgePortProperties.png">
-<p><strong>Gambar : </strong>Setting Bridge Port</p>
-</div>
-
-#### 6. Melihat Daftar IP Address
-
-<div align="center">
-<img src="./assets/Address List.png">
-<p><strong>Gambar : </strong>Daftar IP</p>
-</div>
-
-#### 7. Properti Addres 1
-
-<div align="center">
-<img src="./assets/Address1Properties.png">
+<img src="./assets/addAddress1.png">
 <p><strong>Gambar : </strong>Setting Properti Address 1</p>
 </div>
 
-#### 7. Properti Addres 2
-
+### 6. Properti Address 2
 <div align="center">
-<img src="./assets/Address2Properties.png">
+<img src="./assets/addAddress2.png">
 <p><strong>Gambar : </strong>Setting Properti Address 2</p>
 </div>
 
-#### 8. Percobaan PING ke Server 1
-
+### 7. Percobaan PING ke Server 1
 <div align="center">
-<img src="./assets/ping.png">
+<img src="./assets/Ping1.png">
 <p><strong>Gambar : </strong>Percobaan PING ke Server 1</p>
 </div>
+
+***
