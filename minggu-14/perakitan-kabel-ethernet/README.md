@@ -1,9 +1,3 @@
-```Copy Code
-   Nama  : Muhammad Arief Satria Wibawa
-   NRP   : 3122600015
-   Kelas : 2 D4 IT A
-```
-    
 #  Tahapan Perakitan Kabel Straight
 ### I. Pendahuluan
    - *Tujuan:* Laporan ini disusun untuk memberikan panduan tentang tahapan pembuatan kabel straight.
